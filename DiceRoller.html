@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="DiceRollerstyle.css">
+        <title>Dice Roller</title>
+    </head>
+    <body>
+        <div><img src="Dice.jpg" width=200 height=200></div>
+        <div><button id="button" type="button" onclick="myFunction()">ROLL!</button></div>
+    </body>
+</html>
+<script>
+   function myFunction()
+   {
+    var num=Math.floor(Math.random() * 7);
+    alert(document.getElementById("button").innerHTML=num);
+   }
+</script>
